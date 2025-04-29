@@ -1,116 +1,70 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #0d0d0d;
-    color: #f2f2f2;
-    font-family: 'Georgia', serif;
-    line-height: 1.6;
-    padding: 0 20px;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-  }
-  
-  .logo h1 {
-    font-size: 32px;
-    font-weight: normal;
-    color: #fff;
-  }
-  
-  .logo h1 span {
-    font-size: 14px;
-    vertical-align: top;
-    color: #ccc;
-    margin-right: 5px;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-  }
-  
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .hero {
-    text-align: center;
-    padding: 60px 0;
-  }
-  
-  .hero h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    color: #ccc;
-    font-size: 16px;
-    margin-bottom: 30px;
-  }
-  
-  .btn {
-    background-color: #660000;
-    color: white;
-    padding: 12px 24px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-  }
-  
-  .btn.small {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-  
-  .episodes, .characters {
-    margin: 60px 0;
-    text-align: center;
-  }
-  
-  .episodes h3, .characters h3 {
-    font-size: 26px;
-    margin-bottom: 20px;
-  }
-  
-  .ep-list {
-    list-style: none;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .character-grid {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 20px;
-  }
-  
-  .char-card {
-    text-align: center;
-  }
-  
-  .char-card img {
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px #333;
-  }
-  
-  .char-card p {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+header {
+  background-color: black;
+  padding: 1em;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.welcome {
+  text-align: center;
+  padding: 50px;
+  background-color: #222;
+}
+
+.latest-episodes, .featured-characters {
+  padding: 20px;
+}
+
+.latest-episodes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.character-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.character {
+  width: 100px;
+  height: 150px;
+  background-color: #333;
+  margin: 10px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.learn-more, .view-all {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #c00;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+}
